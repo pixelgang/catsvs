@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.pixelgang.cats" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name> Cats Vs Zombies</name>
+	<description>Cartel against zombies</description>
+	<author href="pixelgangstudios.com" email="support@pixelgangstudios.com">Pixel Gang Studios</author>
+
+	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
+	<icon src="www/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+	<icon src="www/icon-76.png" gap:platform="ios" width="76" height="76" />
+	<icon src="www/icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+
+	<preference name="android-targetSdkVersion" value="21" />
+
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+
+	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
+	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
+
+
+	<preference name="deployment-target" value="8.0" />
+	<preference name="android-minSdkVersion" value="16" />
+	<access origin="*" />
+
+	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-ad-admob" />
+	<plugin name="cordova-plugin-crosswalk-webview" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-httpd" />
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-statusbar" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
+	<plugin name="https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.screenorientation.landscape#bdaeed56012bdc2f9c39dff56308fc6a1c8bf53d" />
+
+
+	<engine name="ios" />
+	<engine name="android" />
+</widget>
