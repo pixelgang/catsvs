@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.pixelgang.cats" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.pixelgang.cats" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name> Cats Vs Zombies</name>
 	<description>Cartel against zombies</description>
 	<author href="pixelgangstudios.com" email="support@pixelgangstudios.com">Pixel Gang Studios</author>
@@ -33,7 +33,7 @@
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
-	<plugin name="https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.screenorientation.landscape#bdaeed56012bdc2f9c39dff56308fc6a1c8bf53d" />
+	
 
 
 	<engine name="ios" />
